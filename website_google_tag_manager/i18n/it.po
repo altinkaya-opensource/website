@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-24 04:16+0000\n"
-"PO-Revision-Date: 2023-11-14 15:36+0000\n"
+"PO-Revision-Date: 2025-05-10 09:23+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
 "Language: it\n"
@@ -17,7 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.10.4\n"
+
+#. module: website_google_tag_manager
+#: model_terms:ir.ui.view,arch_db:website_google_tag_manager.view_website_config_settings
+msgid ""
+"<i class=\"fa fa-arrow-right\"/>\n"
+"                                How to get my GTM container ID"
+msgstr ""
+"<i class=\"fa fa-arrow-right\"/>\n"
+"                                Come ottenere l'ID del mio container GTM"
 
 #. module: website_google_tag_manager
 #: model_terms:ir.ui.view,arch_db:website_google_tag_manager.view_website_config_settings
@@ -51,11 +60,6 @@ msgstr "Gestore etichette Google"
 
 #. module: website_google_tag_manager
 #: model_terms:ir.ui.view,arch_db:website_google_tag_manager.view_website_config_settings
-msgid "How to get my GTM container ID"
-msgstr "Come ottenere il proprio ID per il contenitore GTM"
-
-#. module: website_google_tag_manager
-#: model_terms:ir.ui.view,arch_db:website_google_tag_manager.view_website_config_settings
 msgid "Manage all your tags without editing code."
 msgstr "Gestione delle etichette senza editare codice."
 
@@ -63,3 +67,6 @@ msgstr "Gestione delle etichette senza editare codice."
 #: model:ir.model,name:website_google_tag_manager.model_website
 msgid "Website"
 msgstr "Sito web"
+
+#~ msgid "How to get my GTM container ID"
+#~ msgstr "Come ottenere il proprio ID per il contenitore GTM"
